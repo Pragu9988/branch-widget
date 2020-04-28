@@ -1,0 +1,27 @@
+.branch-widget {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    margin-bottom: 1rem !important;
+}
+
+.entry-content ul {
+    list-style-type : none !important;
+}
+
+.detail-label {
+    font-weight: bold;
+
+}
+
+.branch-widget select {
+    width: 100%;
+    background: rgb(252, 145, 4);
+    padding: 0 50px 0 20px;
+    border: 1px solid rgb(252, 145, 4);
+    cursor: pointer;
+    color:#fff;
+    font-weight: 500;
+    font-size: 1rem;
+    text-indent: 5px;
+}
