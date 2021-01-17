@@ -106,7 +106,7 @@ HTML;
 			</script>
 SCRIPT;
     echo $script;
-    echo $before_widget;
+    echo "<div>";
     // if ( $instance['title'] )
     //    echo "{$before_title}{$instance['title']}{$after_title}";
 
@@ -125,7 +125,7 @@ SCRIPT;
 
     $wp_post_types[$post_type]->hierarchical = $hierarchical;
 
-    echo $after_widget;
+    echo "</div>";
 
     // Create our post html target for jQuery to fill in
     echo "<div id=\"{$dropdown_name}-target\"></div>";
