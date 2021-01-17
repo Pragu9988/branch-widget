@@ -106,7 +106,7 @@ HTML;
 			</script>
 SCRIPT;
     echo $script;
-    echo "<div>";
+    echo "<div class='widget-wrap'>";
     // if ( $instance['title'] )
     //    echo "{$before_title}{$instance['title']}{$after_title}";
 
